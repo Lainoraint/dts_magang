@@ -1,0 +1,53 @@
+/* assets/css/style.css */
+body {
+    background-color: #e7f5ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk judul */
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.btn-custom {
+    background-color: #2c3e50;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan untuk tombol */
+}
+
+.btn-custom:hover {
+    background-color: #34495e;
+}
+
+.result-text {
+    font-size: 1.5em;
+    color: #27ae60;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Bayangan untuk hasil */
+}
+
+.card {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk card */
+}
+
+.card-header {
+    background-color: #2c3e50;
+    color: #fff;
+    font-weight: bold;
+}
+
+.chart-container {
+    margin-top: 30px;
+}
